@@ -5,7 +5,6 @@ with base as (
     from {{ ref('stg_qualtrics__block_question_tmp') }}
 ),
 
-
 fields as (
 
     select
